@@ -2,8 +2,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-result = []
-
 books = [
     {"title": "Clean Code", "author": "Robert C. Martin", "publisher": "Prentice Hall"},
     {"title": "Atomic Habits", "author": "James Clear", "publisher": "Avery"},
